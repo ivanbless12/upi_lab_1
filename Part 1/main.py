@@ -16,9 +16,8 @@ def create_parser():
                     "-et",
                     "--exchange_type",
                     choices=['RUB/USD', 'USD/RUB'],
-                    default='RUB/USD',
                     required=True,
-                    help="Set currency exchange type. Required parameter. Default: 'RUB/USD'."
+                    help="Set currency exchange type. Required parameter. Choices: 'RUB/USD', 'USD/RUB'."
     )
     param.add_argument(
                     "-am",
